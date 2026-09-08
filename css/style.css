@@ -1,0 +1,102 @@
+   /* 🔹 Mantiene el footer en la parte inferior */
+   html,
+   body {
+       height: 100%;
+       margin: 0;
+   }
+
+   body {
+       background-color: #f8f9fa;
+   }
+
+  
+   body {
+       display: flex;
+       flex-direction: column;
+       min-height: 100vh;
+   }
+
+   main {
+       flex: 1;
+   }
+
+   /* 🔹 Cambiar color del navbar */
+   .navbar {
+       background-color: #fff241 !important;
+
+   }
+
+   /* 🔹 Cambiar color de los enlaces */
+   .navbar .nav-link {
+       color: white !important;
+   }
+
+   /* 🔹 Efecto hover */
+   .navbar .nav-link:hover {
+       background-color: rgba(255, 255, 255, 0.2);
+       border-radius: 5px;
+   }
+
+   /* 🔹 Enlace activo */
+   .navbar .nav-link.active {
+       font-weight: bold;
+       text-decoration: underline;
+   }
+
+
+    /* 🔹 Cambia el color del footer */
+    footer {
+      background-color: #000; /* azul Bootstrap */
+      color: white;
+    }
+
+      .servicio-card {
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .servicio-card img {
+    height: 220px;
+    object-fit: cover;
+  }
+
+  .servicio-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
+  }
+
+  .servicio-card:hover .card-title {
+    color: #ffc107; /* amarillo elegante */
+  }
+
+    .galeria-item {
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  .galeria-item img {
+    transition: transform 0.4s ease, filter 0.4s ease;
+  }
+
+  .galeria-item:hover img {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+  }
+  
+.btn-pink {
+    background-color: #115a21;
+    color: white;
+    border-radius: 30px;
+    transition: 0.3s;
+  }
+
+  .btn-pink:hover {
+    background-color: #ddd56b;
+    transform: scale(1.05);
+  }
+
+  .contacto-info {
+    background: linear-gradient(135deg, #ffe6f0, #fff);
+  }
